@@ -254,7 +254,7 @@ h6 {
   .navmenu .active:focus {
     color: var(--nav-hover-color);
   }
-
+/*
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
@@ -309,7 +309,7 @@ h6 {
     top: 0;
     left: -100%;
     visibility: visible;
-  }
+  }*/
 }
 
 /* Mobile Navigation */

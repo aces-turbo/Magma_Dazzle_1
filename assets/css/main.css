@@ -170,7 +170,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
   .navmenu {
     padding: 0;
   }
@@ -399,11 +399,11 @@ h6 {
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
   }
-
+/* Mobile nav active state */
   .mobile-nav-active {
     overflow: hidden;
   }
-
+/* Mobile nav toggle active state */
   .mobile-nav-active .mobile-nav-toggle {
     color: #fff;
     position: absolute;
@@ -414,14 +414,15 @@ h6 {
     z-index: 9999;
   }
 
+/* Mobile nav menu active state */
   .mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
     inset: 0;
-    background: rgba(33, 37, 41, 0.8);
+    background: rgba(85, 177, 49, 0.8);
     transition: 0.3s;
   }
-
+/* Show navmenu when mobile nav is active */
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
